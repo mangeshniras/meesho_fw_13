@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/bdfe5144d7.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+    <style>
+
+         /* head css part start */
+         .head_container{
+            border:1px solid lightgrey ;
+            height: 90px;
+            border-left: none;
+            border-right: none;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        .head_container>div{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            
+        }
+        #head_input{
+            border: 1px solid lightgrey;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            display: inline-block;
+            padding: 6px;
+            height: 50px;
+            margin:auto;
+            margin-right: 0px;
+            width: 350px;
+            font-size: 17px;
+            /* border-right: none; */
+        }
+        #head_search {
+            height: 64.3px;
+            width: 40px;
+            float: right;
+            padding: 6px;
+            margin: auto;
+            margin-left: 0px;
+            background:white;
+            font-size: 25px;
+            border: 1px solid lightgrey;
+            border-left: none;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            cursor: pointer;
+}
+        #head_search:hover {
+            background: white;
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+        .head_b1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #f43397;
+            line-height: 1px;
+            margin-right: 20px;
+            font-size: 25px;
+            padding-right: 10px;
+        }
+        .head_b2{
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .head_b4,.head_b3,.head_b5,.head_b6{
+            width: 50px;
+            font-size:20px ;
+            padding-left: 70px; 
+        }
+        .head_subMenu{
+            border:1px solid lightgrey ;
+            height: 60px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            text-align: center;
+        }
+        .head_subMenu>div{
+            height: 100%;
+            width: auto;
+            display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;
+            align-items: center;
+        }
+        .head_subMenu>div:hover{
+            background-color: white;
+            color: #f43397;
+            font-weight: bold;
+            border-bottom: 4px solid;
+        }
+        #meesho_logo{
+            margin-left: 40px;
+        }
+        .cart,.user{
+            font-size: 35px;
+            color: grey;
+        }
+        /* head css end */
+        .box{
+            background-color: whitesmoke;
+            display: inline-block;
+            height: 500px;
+            width: 48%;
+            margin: auto;
+            vertical-align: top;
+        }
+        .box1{
+            height: 270px;
+            margin-left: 10%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            border-radius: 8px;
+        }
+        hr{
+            margin: 0;
+            padding: 0;
+        }
+        .prod{
+            vertical-align: top;
+            display: inline-block;
+            margin-top: 7%;
+            margin-left: 8%;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        img{
+            height:120px ;
+        }
+        span{
+            color: gray;
+        }
+        #supplier{
+            color: gray;
+            padding-left: 20px;
+        }
+        .box2{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding-left:30px ;
+            width: 300px;
+            margin-left: 50px;
+        }
+        p{
+            color: grey;
+        }
+        .leftA{
+            padding-left: 50px;
+            text-align: left;
+            color: red;
+        }
+        .ls{
+            padding-left: 74px;
+        }
+        .ld{
+            padding-left: 10px;
+        }
+        .lm{
+            padding-left: 26px;
+        }
+        button{
+            background-color: #f43397;
+            border: none;
+            height: 40px;
+            width: 90%;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius:5px ;
+            color: white;
+        }
+        #sp{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- head html part start -->
+    <div class="head_container">
+        <div class="head_box head_b1"><h1 id="meesho_logo">meesho</h1></div>
+        <div class="head_box head_b2">
+            <input id="head_input" type="text" placeholder="Try Saree, Kurti or Search by product Code" name="search">
+            <button type="submit" id="head_search"><i class="fa fa-search" ></i></button>
+        </div>
+        <div class="head_box head_b3"><a href="">SignUp</a></div>
+        <div class="head_box head_b4"><a href="">Login</a></div>
+        <div class="head_box head_b5"><a href=""><i class="fa fa-user user"></i> <br>Profile</a></div>
+        <div class="head_box head_b6"><a href=""><i class="fa fa-cart-plus cart"><sup id="sp">1</sup></i> <br> Cart</a></div>
+    </div>
+    <div class="head_subMenu">
+        <div class="head_description head_d1">Women Ethnic</div>
+        <div class="head_description head_d2">Women Western</div>
+        <div class="head_description head_d3">Jewellery & Accessories</div>
+        <div class="head_description head_d4">Men</div>
+        <div class="head_description head_d5">Beauty & Health</div>
+        <div class="head_description head_d6">Bags & Footwear</div>
+        <div class="head_description head_d7">Home & Kitchen</div>
+        <div class="head_description head_d8">Kids</div>
+        <div class="head_description head_d9">Electronics</div>
+    </div>
+
+    <!-- head html part end -->
+
+
+    <div class="container">
+        <h1 style="margin-left: 10%; padding-top: 40px;">Cart:</h1>
+        <div class="box box1">
+            <img class="prod" id="pro_img" src="https:via.placeholder.com/80x100" alt="">
+            <p class="prod" > <span id="prod_name">Product_name</span> 
+               <br><span>size:</span> <span id="product_size">8</span> <br>
+              <span>Qty: </span><span id="product_qty">1</span> <br> 
+              <span>₹ </span><span class="product_price" id="product_price">180</span>
+            </p>
+         <hr>
+           <p id="supplier">Supplier : PRAKRUTHI COSMETICS AND SALOON EQUIPMENT</p>
+        </div>
+        <div class="box box2">
+            <h1>Price Details</h1>
+            <p>
+                Product Charge <span>₹</span> <span class="product_price leftA" id="t_price">180</span>
+            </p>
+            <p>
+                Dellivery Charge <span class="leftA">₹80</span>
+            </p>
+            <p>
+                COD Charge <span class="leftA ls">+₹0</span>
+            </p>
+            <p>
+                1st Order Discount <span class="leftA lm">₹ 100</span>
+            </p>
+            <hr>
+            <h2>
+                Order Total <span>₹</span> <span id="total_price" class="leftA ld">206</span>
+            </h2>
+            <p style="font-size:13px;">Clicking on ‘Continue’ will not deduct any money</p>
+            <a href="meesho_address.html"><button>Continue</button></a>
+            <img style="width: 270px; margin-top: 10px;" src="https://images.meesho.com/images/marketing/1588578650850.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    data = JSON.parse(localStorage.getItem("cartItem"));
+    //console.log(data)
+    var pro_img1 = document.querySelector("#pro_img");
+    pro_img1.setAttribute("src",data.image_url)
+    console.log(data.price,data.image_url,data.product_n)
+
+    var pro_name = document.querySelector("#prod_name");
+    pro_name.textContent=data.product_n;
+
+    var pro_price = document.querySelector("#product_price");
+    pro_price.textContent=data.price;
+
+    var left_price = document.querySelector("#t_price");
+    left_price.textContent=data.price;
+
+    var Discount = Math.floor((data.price * 20) / (100));
+
+    product_price.textContent = (data.price - Discount);
+
+   // var total = (80+data.price)-100;
+    var t_price = document.querySelector("#total_price");
+    t_price.textContent=(data.price - Discount);
+    
+</script>
