@@ -1,0 +1,53 @@
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgb(177, 166, 172);
+  /* box-shadow: 2px 2px 2px 1px rgb(200, 207, 214); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.sellerdata {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+input {
+  /* width: 40%; */
+  height: 40px;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: deeppink;
+}
+#title {
+  font-size: 50px;
+  color: orangered;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+#submit_btn{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 10px;
+  background-color: white;
+  color: deeppink;
+}
+#pro_type{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: deeppink;
+  width: 70%;
+  margin-left: 20px;
+}
