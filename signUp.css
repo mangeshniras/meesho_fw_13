@@ -1,0 +1,153 @@
+      /* head css part start */
+      .head_container{
+        border:1px solid lightgrey ;
+        height: 90px;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+      .head_container>div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+      }
+      #head_input{
+        border: 1px solid lightgrey;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        display: inline-block;
+        padding: 6px;
+        height: 50px;
+        margin:auto;
+        margin-right: 0px;
+        width: 350px;
+        font-size: 17px;
+        /* border-right: none; */
+      }
+      #head_search {
+        height: 64.3px;
+        width: 40px;
+        float: right;
+        padding: 6px;
+        margin: auto;
+        margin-left: 0px;
+        background:white;
+        font-size: 25px;
+        border: 1px solid lightgrey;
+        border-left: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+      }
+      #head_search:hover {
+        background: white;
+      }
+      a{
+        text-decoration: none;
+        color: grey;
+      }
+      .head_b1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #f43397;
+        line-height: 1px;
+        margin-right: 20px;
+        font-size: 25px;
+        padding-right: 10px;
+      }
+      .head_b2{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        
+      }
+      .head_b4,.head_b3,.head_b5,.head_b6{
+        width: 50px;
+        font-size:20px ;
+        padding-left: 70px; 
+      }
+      .head_subMenu{
+        border:1px solid lightgrey ;
+        height: 60px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+      }
+      .head_subMenu>div{
+        height: 100%;
+        width: auto;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        align-items: center;
+      }
+      .head_subMenu>div:hover{
+        background-color: white;
+        color: #f43397;
+        font-weight: bold;
+        border-bottom: 4px solid;
+      }
+      #meesho_logo{
+        margin-left: 40px;
+      }
+      .cart,.user{
+        font-size: 35px;
+        color: grey;
+      }
+      /* head css end */
+      
+              .container{
+                  border: 1px solid whitesmoke;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                  width: 300px;
+                  text-align: center;
+                  margin: 30px 20% 0 30%;
+                  border-radius: 10px;
+                  padding: 7%;
+              }
+              label,.signUpinput{
+                  display: block;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  height: 30px;
+                  font-weight: bolder;
+                  border-radius: 10px;
+                  border: 1px solid white;
+              }
+              .signUpinput{
+                  background-color: #f43397;
+                  text-align: center;
+                  font-size: 20px;
+                  height: 40px;
+                  margin-bottom: 10px;
+                  margin-left: 30px;
+                  
+              }
+              #signUp_button{
+                  height: 40px;
+                  background-color: #f3cc6c;
+                  text-align: center;
+                  font-size: 20px;
+                  border-radius: 10px;
+                  margin-left: 25px;
+                  width: 260px;
+                  border: 2px solid #f1c659;
+                  height: 40px;
+                  margin-top: 30px;
+                  
+              }
+              .fa-users{
+                  font-size: 70px;
+              }
+              /* .fa-surprise{
+                  padding-top: 1px;
+                  font-size: 50px;
+              } */
