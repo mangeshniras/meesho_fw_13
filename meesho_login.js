@@ -21,6 +21,7 @@ function myFun(event) {
       window.location.href = "meesho_merchant.html";
       //window.location.href = "meesho_merchant.html";
       //console.log(userData.length)
+      flag = true;
       break;
     } else if (
       email === userData[i].userEmail &&
