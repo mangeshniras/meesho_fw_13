@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+    <script src='https://kit.fontawesome.com/bdfe5144d7.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="meesho_payment.css">
+    <style>
+   
+        
+    </style>
+</head>
+<body>
+    <!-- check bar star-->
+    <div class = "p">
+        <div class = "c1">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class = "l">
+        </div>
+        <div class = "c2">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class = "l1">
+        </div>
+        <div class = "c">
+        </div>
+      </div>
+
+      <div class = "p8">
+        <div class = "c8">
+          <P>Address</P>
+        </div>
+        <div class = "l8">
+        </div>
+        <div class = "c8">
+           <p>Payment</p>
+        </div>
+        <div class = "l8">
+        </div>
+        <div class = "c8">
+            <p>Order Placed</p>
+        </div>
+      </div>
+      
+<!-- check bar end -->
+    <div class="container">
+        <h1 style="margin-left: 10%; padding-top: 40px;">Payment Method</h1>
+        <div class="box box1">
+            <div class="cod">
+                <i class="fas fa-truck"> Cash on delivery</i>
+                <input checked type="radio" >
+            </div>
+            <!-- <div class="cod">
+                <i class="fas fa-mobile">Online</i>
+                <input type="radio">
+            </div> -->
+        </div>
+        <div class="box box2">
+            <h1>Price Details</h1>
+            <p>
+                Product Charge <span>₹</span> <span class="product_price leftA" id="t_price">180</span>
+            </p>
+            <p>
+                Delivery Charge <span class="leftA">₹80</span>
+            </p>
+            <p>
+                COD Charge <span class="leftA ls">+₹0</span>
+            </p>
+            <p>
+                1st Order Discount <span class="leftA lm">₹ 100</span>
+            </p>
+            <hr>
+            <h2>
+                Order Total <span>₹</span> <span id="total_price" class="leftA ld">206</span>
+            </h2>
+            <p style="font-size:13px;">Clicking on ‘Continue’ will not deduct any money</p>
+           <a href="summery.html"><button>Continue</button></a>
+            <img style="width: 270px; margin-top: 10px;" src="https://images.meesho.com/images/marketing/1588578650850.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script src="meesho_payment.js">
+   
+</script>
