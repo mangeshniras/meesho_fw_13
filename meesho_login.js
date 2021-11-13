@@ -29,7 +29,7 @@ function myFun(event) {
       user_type === "user"
     ) {
       alert("Welcome User");
-      window.location.href = "addtocart.html";
+      window.location.href = "cartcheck.html";
       //window.location.href = "meesho_merchant.html";
       //console.log(userData.length)
       flag = true;
