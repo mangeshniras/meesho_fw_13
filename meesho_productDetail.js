@@ -18,7 +18,7 @@ img.setAttribute("src",data.image_url)
 // document.querySelector("#select_size1").textContent=mm;
 
 var btn = document.querySelector(".addToCart");
-    btn.addEventListener("click",function (){ window.location.href="cartcheck.html"})
+    btn.addEventListener("click",function (){ window.location.href="signUp.html"})
 
 
     var Discount = Math.floor((data.price * 20) / (100));
