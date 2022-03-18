@@ -1,3 +1,5 @@
+<img height="100px" width="150px" src="https://raw.githubusercontent.com/mangeshniras/meesho_fw_13/main/meeshoLogo.png" />
+
 Clone of Messho
 Meesho is an e-commerce corporation based in India, that facilitates consumer-to-consumer and business-to-consumer sales through its website.
 Technologies we used
